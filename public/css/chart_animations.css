@@ -1,0 +1,173 @@
+.progressBarValue {
+
+  height: 1.66em;
+  float: left;
+  width: 0%;
+  background-color:#666666;
+ 
+  
+ 
+}
+
+.ps {
+
+	background-color: #98CBCB;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+	
+}
+
+
+
+.ai  {
+	
+	background-color: #CBCB98;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+	
+}
+
+
+
+.id  {
+
+	background-color: #CB6665;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+	
+}
+
+
+
+.fl { 
+
+	background-color:#CB6532;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+
+}
+
+
+
+.dw { 
+
+	background-color:#98CB98;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+
+}
+
+
+
+.ae { 
+
+	background-color:#9998C9;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+
+}
+
+
+
+.pr { 
+
+	background-color:#CC9999;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+
+}
+
+
+
+.lr { 
+
+	background-color:#999998;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+
+}
+
+
+
+.au { 
+
+	background-color:#98CB98;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+
+}
+
+
+
+.dmax { 
+
+	background-color:#666666;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+
+}
+
+
+
+.c4d { 
+
+	background-color:#6598CB;
+	-webkit-transition: width 2s;
+	-moz-transition:width 2s; 
+  	transition: width 2s;
+
+  	-webkit-transition-delay: 1s;
+  	-moz-transition-delay: 1s;
+  	transition-delay: 1s;
+
+}

@@ -1,0 +1,135 @@
+.value-ps {
+	-moz-animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-name: value-ps;
+	-webkit-animation-name: value-ps;
+	-moz-animation-delay:1s;
+	-webkit-animation-delay:1s;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	background-color: #98CBCB;
+	
+}
+
+
+    
+    @-moz-keyframes value-ps {
+      from {
+        width:0%;
+      }
+      
+      to {
+        width:80%;
+      }
+    }
+    
+    @-webkit-keyframes value-ps {
+      from {
+       width:0%;
+      }
+      
+      to {
+        width:80%;
+      }
+    }
+
+
+.value-ai {
+	-moz-animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-name: value-ai;
+	-webkit-animation-name: value-ai;
+	-moz-animation-delay:1s;
+	-webkit-animation-delay:1s;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	background-color: #CBCB98;
+	
+}
+
+
+    
+    @-moz-keyframes value-ai {
+      from {
+        width:0%;
+      }
+      
+      to {
+        width:90%;
+      }
+    }
+    
+    @-webkit-keyframes value-ai {
+      from {
+       width:0%;
+      }
+      
+      to {
+        width:90%;
+      }
+    }
+
+
+.value-id {
+	-moz-animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-name: value-id;
+	-webkit-animation-name: value-id;
+	-moz-animation-delay:1s;
+	-webkit-animation-delay:1s;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	background-color: #CB6665;
+	
+}
+
+
+    
+    @-moz-keyframes value-id {
+      from {
+        width:0%;
+      }
+      
+      to {
+        width:85%;
+      }
+    }
+    
+    @-webkit-keyframes value-id {
+      from {
+       width:0%;
+      }
+      
+      to {
+        width:85%;
+      }
+    }
+
+
+.value-fl { width: 60%; background-color:#CB6532;}
+
+.value-dw { width: 70%; background-color:#98CB98;}
+
+.value-ae { width: 65%; background-color:#9998C9;}
+
+.value-pr { width: 70%; background-color:#CC9999;}
+
+.value-lr { width: 60%; background-color:#999998;}
+
+.value-au { width: 60%; background-color:#98CB98;}
+
+.value-3dx { width: 50%; background-color:#666666;}
+
+.value-c4d { width: 65%; background-color:#6598CB;}
+
+
+
+
+
+
