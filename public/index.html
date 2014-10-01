@@ -45,7 +45,6 @@
 </head>
 <body>
 
-<!-- ///////////API Fb/////////// -->
    
    	<div id="preloader">
   		<div id="status">&nbsp;</div>
@@ -311,41 +310,12 @@
 			<div  class="titles">
 				<h1>Contact</h1>
 			</div>
-			<div id="contactform">
-            <!-- bloque confirmacion de envio oculto  -->
-            <div id="c_information" class="hide">
-                <p></p>
-            </div>
-            <!-- fin bloque confirmacion de envio -->
-             
-            <!-- inicio formulario -->
-            <form id="c_form" name="contact">
-                <div>
-                  <label>
-                    <p>Nombre</p>
-                    <input name="nombre" id="c_name" type="text" class="c_input" placeholder="nombre..."/>
-                  </label>
-                  <br/>
-                  <label>
-                    <p>Email:</p>
-                    <input name="email"  id="c_mail" type="text" class="c_input" placeholder="email..."/>
-                  </label>
-                </div>
-                <label>
-                  <p>Mensaje:</p>
-                  <textarea name="mensaje"  id="c_msg" placeholder="mensaje..."></textarea>
-                </label>
-                <!-- boton enviar  -->
-                <div id="c_btns">
-                    <input name="send" onclick="cargaSendMail()" type="button" value="Enviar" class="btn-b" id="c_enviar"></input>
-                </div>
-            </form>
-            <!-- fin formulario -->
-      </div>
+			
+      	</div>
 
 		
 		
-		</div>
+		
 		<footer>
 
 			
@@ -357,6 +327,7 @@
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/hammer.min.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/typed.js"></script>
 

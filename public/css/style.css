@@ -46,7 +46,7 @@ body {
 	-moz-transform: transale3d(0,0,0);
 	transform: transale3d(0,0,0);
 }
-
+/*-------------------------------------menu-------------------------------------*/
 nav#menu  {
 	background-color: rgba(0, 0, 0, 0.3);
 	position: fixed;
@@ -165,6 +165,8 @@ nav#vertmenu ul {
 	font-family: 'Raleway';
 	font-weight: 800;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 
 	
 }
@@ -214,7 +216,7 @@ nav#vertmenu ul li a {
 
 
 
-
+/*-------------------------------------sections-------------------------------------*/
 
 .sections	{
 
@@ -223,6 +225,8 @@ nav#vertmenu ul li a {
 
 }
 
+
+/*-------------------------------------home-------------------------------------*/
 #nombre {
 
 	margin-top: 20vh;
@@ -352,6 +356,8 @@ nav#vertmenu ul li a {
 
 }
 
+/*-------------------------------------about-------------------------------------*/
+
 #about	{
 
 	color: white;
@@ -406,10 +412,9 @@ nav#vertmenu ul li a {
 #textabout {
 	
 	width: 35%;
+	margin: 0;
 	margin-right: 3%;
 	height: 50vh;
-	margin-top:5vh;
-	margin-bottom: -5vh;
 	text-align: right;
 	float: right;
 	
@@ -420,15 +425,15 @@ nav#vertmenu ul li a {
 
 	font-size: 21px;
 	vertical-align: middle;
-	height: 50%;
-	margin-top: 25%;
-	margin-bottom: 25%;
+	height: auto;
+	margin: 0;
 	font-weight: 300;
 	font-family: "Raleway";
 	line-height: 1.25em;
 
 }
 
+/*-------------------------------------skills-------------------------------------*/
 #skills	{
 
 	background-color: #3E3E3D;
@@ -437,10 +442,10 @@ nav#vertmenu ul li a {
 
 div#chart {
 
-	width: 100%;
-	padding-left: 8%;
-	padding-right: 5%;
-	padding-top: 15vh;
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 div#chart ul li {
 
@@ -453,7 +458,7 @@ div#chart ul li {
 }
 div#chart ul li img {
 
-	width: 10%;
+	width: 35px;
 	display: inline-block;
 	float: left;
 }
@@ -464,6 +469,7 @@ div#chart ul {
 	height:500px;
 	text-align: center;
 	margin: auto;
+	padding: 0;
 }
 
 .bar {
@@ -503,12 +509,12 @@ h4 {
 	background: #7D7D7D;
 	overflow: hidden;
 	margin-top: 7px;
-	margin-left: 50px;
+	margin-left: 15%;
 
 }
 
 
-
+/*-------------------------------------work-------------------------------------*/
 
 #work	{
 
@@ -709,153 +715,16 @@ h4 {
 	font-weight: 100;
 
 }
+/*---------------------------------------Contact---------------------------------------*/
 
 #contact {
 
-	background-color: #68C3A3; 
+	background-color: #D35400; 
 }
 
-/*------------------------ContactForm------------------------*/
 
-label p{
-    color: #333;
-    text-decoration: none;
-    display:block;
-    margin:5px 0;
-    font-size:1.25em;
-}
- 
-#contactform{
-    width: 500px;
-    margin: 30px auto;
-    background: #fafafa;
-    overflow: hidden;
-    border:1px solid;
-    border-bottom:3px solid;
-    border-color: #37a0f3;
-}
- 
-.c_input{
-    padding: 3px;
-    width: 250px;
-    outline:1px solid white;
-}
- 
-#c_form{
-    margin: 25px;
-    width: 90%;
-}
- 
-#c_form textarea {
-    outline:1px solid white;
-}
- 
-.c_input, #c_form textarea{
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    padding: 4px;
-}
- 
-input:focus, textarea:focus{
-    outline: none;
-}
- 
-::-webkit-input-placeholder { font-style:italic; }
-::-moz-placeholder { font-style:italic; } /* firefox 19+ */
-:-ms-input-placeholder { font-style:italic; } /* ie */
-input:-moz-placeholder { font-style:italic; }
- 
-#c_form textarea{
-    min-height: 150px;
-    resize: none;
-    width: 100%;
-}
- 
-#c_enviar{
-    padding: 4px;
-    font-size: 13px;
-    font-family: helvetica, arial;
-}
- 
-#bottom_container{
-    overflow: hidden;
-}
- 
-#c_information{
-    width: 100%;
-    border: solid 1px #ccc;
-    background: #25A25A;
-    padding: 4px 0 4px 0;
-    text-align: center;
-    font-size: 14px;
-    color: #fff;
-}
- 
-.c_error{
-    color: #D64242;
-    font-size: 10px;
-    margin-left: 5px;
-}
-.hide{
-display:none;
-}
- 
- 
- 
-/*------------------------Boton enviar------------------------*/
- 
-.btn-b {
-    width:100%;
-    padding: 5px;
-    color: #111111;
-    text-decoration: none;
-    border-radius: 3px;
-    border-color: #2A73A6 #165899 #07428F;
-    border-style: solid;
-    border-width: 1px;
-    color: #ffffff;
-    text-shadow: 0 -1px 1px #3275BC;
-    background: #52a8e8;
-    padding: 5px;
-    cursor: pointer;
-}
- 
-.btn-b:hover {
-    border-radius: 3px;
-    border-color: #2A73A6 #165899 #07428F;
-    border-style: solid;
-    border-width: 1px;
-    box-shadow: 0 1px 0 0 #62B1E9 inset;
-    text-shadow: 0 -1px 1px #1D62AB;
-    background: #3e9ee5;
-    background: -moz-linear-gradient(top,  #3e9ee5 0%, #206bcb 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e9ee5), color-stop(100%,#206bcb));
-    background: -webkit-linear-gradient(top,  #3e9ee5 0%,#206bcb 100%);
-    background: -o-linear-gradient(top,  #3e9ee5 0%,#206bcb 100%);
-    background: -ms-linear-gradient(top,  #3e9ee5 0%,#206bcb 100%);
-    background: linear-gradient(top,  #3e9ee5 0%,#206bcb 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e9ee5', endColorstr='#206bcb',GradientType=0 );
-     
-}
- 
-.btn-b:hover {
-    text-decoration: none;
-}
- 
-.btn-b:active {
-    -moz-border-bottom-colors: none;
-    -moz-border-image: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background: none repeat scroll 0 0 #3282D3;
-    border-color: #154C8C #154C8C #0E408E;
-    border-style: solid;
-    border-width: 1px;
-    box-shadow: 0 0 6px 3px #1657B5 inset, 0 1px 0 0 #FFFFFF;
-    text-shadow: 0 -1px 1px #2361A4;
-}
 
+/*-------------------------------------1200px-------------------------------------*/
 @media (max-width: 1200px)	{
 	
 	#textabout  {
@@ -867,7 +736,7 @@ width: 50%;
 }
 
 
-
+/*-------------------------------------1000px-------------------------------------*/
 @media (max-width: 1000px)	{
 
 	nav#menu {
@@ -898,6 +767,15 @@ width: 60%;
 
 }
 
+
+div#chart {
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+/*-------------------------------------800px-------------------------------------*/
 @media (max-width: 800px)	{
 
 	
@@ -917,10 +795,33 @@ width: 60%;
 
 }
 
+div#chart {
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+}
 
+div#chart ul li {
+margin-top: none;
+float: none;
+width: 100%;
+}
+
+.bar {
+
+	margin-top: 5%;
+}
+.progressBarContainer {
+
+	margin-left: 0;
+	width:auto;
+	max-width: none;
 }
 
 
+
+
+/*-------------------------------------720px-------------------------------------*/
 @media (max-width: 720px)	{
 
 	nav#menu {
@@ -1009,6 +910,7 @@ div#chart ul li img 	{
 }
 
 
+/*-------------------------------------370px-------------------------------------*/
 @media (max-width: 370px)	{
 
 #nombre h1 {
@@ -1033,7 +935,6 @@ nav#vertmenu ul li {
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
-	padding-top: 20vh;
 	padding-right: 0;
 	text-align: center;
 
