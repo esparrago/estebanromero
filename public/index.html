@@ -10,7 +10,7 @@
 	<meta name="keywords" content="diseñador gráfico, diseño gráfico, porfolio, portafolio, Bogotá, diseño web, ui/ux, ui, ux, user interface, portfolio" />
 	<meta name="author" content="Esteban Romero | esparragostudio.com" />
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,800,900' rel='stylesheet' type='text/css'>
 	
 	 <!-- Bootstrap -->
@@ -79,7 +79,7 @@
 	<img class="fixedarrow"src="img/svg/arrowdown.svg">
 	<div id="container">
 		<div class="sections" id="intro">
-			<div id="pruebasection" data-stellar-background-ratio="0.25">
+			<div id="pruebasection">
 				<div id="nombre"class="inline">
 					<div id="aftername">
 					<h1 >
@@ -87,7 +87,7 @@
 						<span>ROMERO</span>
 					</h1>
 					</div>
-					<h1><span id="typedtext"></span> DESIGNER &<br></h1>
+					<h1><span id="typedtext"></span> DESIGNER<br></h1>
 					 <h2>FRONT-END DEVELOPER.</h2>
 					<p>Books • Gin • Geek Stuff • Coffee • Music • Startups • Junk food
 					</p>
@@ -99,14 +99,18 @@
 		
 
 
-		<div class="sections" id="about" data-stellar-background-ratio="0.5">
+		<div class="sections" id="about">
 			<div  class="titles">
 				<h1>About me</h1>
 			</div>
 				<div id="face2" preserveAspectRatio="xMidYMid meet" ></div>
 				<div id="textabout">
 					<p>
-						Diseñador gráfico de la ciudad de Bogotá, amante del diseño limpio y eficaz, los grandes retos, el aprendizaje diario y las buenas practicas profesionales. Mi gran pasión son el diseño digital e interactivo y el new media design, pero domino con destreza la mayoría de los campos del diseño gráfico. Soy muy metódico, con facilidad para el trabajo bajo presión, con un gran sentido de la responsabilidad y el cumplimiento, completamente comprometido con mi profesión y futuro, extrovertido, dinámico, jovial y un excelente sentido del humor.
+						
+						I’m Esteban Romero, a digital designer and development enthusiastic, I’m passionate about all things <span>web</span>, <span>startups</span>,<span> UI/UX design</span>, etc<br>
+						lover of clean and efficient design, facing major challenges, Accomplish goals, Learning Something New Every Day<br>
+						I'm currently learning <span>javascript</span>, <span>Angular.js</span>, <span>node.js</span>, <span>ruby</span>, etc<br>
+						Outgoing, dynamic, cheerful and a great sense of humor.
 					</p>
 				</div>
 		</div>
@@ -266,7 +270,10 @@
 				</ul>
 			</div>			
 		</div>
-		<div class="sections" id= "work" data-stellar-background-ratio="0.1">
+		<div class="sections" id= "work">
+		<div class="sections" id= "workcontainer">
+			<div class="helper hleft"></div>
+			<div class="helper hright"></div>
 			<div  class="titles">
 				<h1>Work</h1>
 			</div>
@@ -283,11 +290,19 @@
 					App Design • UI/UX Design  
 					</span>
 				</h1>
+				<h1 id="setmy" class="pronames">
+					Set My Song<br>
+					<span>
+					App Design • UI/UX Design  
+					</span>
+				</h1>
 					</div>
 			<div class="containerbottom">
-					<img id="galicon" src="img/svg/arrow.svg">
-					<div id="prev" class="arrowshover"></div>
-					<div id="next" class="arrowshover"></div>
+					<a href="http://nomegustafreiresparragos.tumblr.com/" target="_blank"><img  src="img/svg/tumblr.svg"></a>
+					<a href="http://www.pinterest.com/Estesparrago/design/" target="_blank"><img  src="img/svg/pin.svg"></a>
+					<img id="galicon" src="img/svg/gallery.svg">
+					<div id="prev" class="arrowshover iz"><img src="img/svg/arrowi.svg"></div>
+					<div id="next" class="arrowshover der"><img src="img/svg/arrowd.svg"></div>
 					<div id="scroll">
 						<img class="buttongal 1" src="images/small/1.jpg">
 						<img class="buttongal 2" src="images/small/2.jpg">
@@ -298,7 +313,7 @@
 						<img class="buttongal 7" src="images/small/7.jpg">
 						<img class="buttongal 8" src="images/small/8.jpg">
 						<img class="buttongal 9" src="images/small/9.jpg">
-						<img class="buttongal 10" src="images/small/10.jpg">
+						
 				</div>
 				
 			</div>
@@ -306,29 +321,39 @@
 						
 
 		</div>
+		</div>
 		<div class="sections" id= "contact">
+		<div class="sections" id="footcontainer">
 			<div  class="titles">
 				<h1>Contact</h1>
 			</div>
 			
-      	</div>
-
-		
-		
-		
-		<footer>
-
+			<div class="contactinfo">
+				<img src="img/svg/mail.svg"><h1>manoloromero13@hotmail.com</h1>
+				<img src="img/svg/phone.svg"><h1>312 409 7155</h1>
+				<div class="icons">
+				<a href="https://www.facebook.com/nomegustafreiresparragos" target="_blank">
+					<img src="img/svg/facebook.svg">
+				</a>
+				<a href="https://twitter.com/estesparrago" target="_blank">
+					<img src="img/svg/twitter.svg">
+				</a>
+				</div>
+			</div>
 			
-		</footer>
+			<div id="footer"><h1>ESTEBAN ROMERO • 2014</h1></div>
+
+		</div>
+      	</div>
 	</div>
 		<!-- Scripts & Compileds -->
     
 
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/hammer.min.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/typed.js"></script>
 
     	<!--toggle-->

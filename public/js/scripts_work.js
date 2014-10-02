@@ -5,8 +5,13 @@ $("#galicon").click(function () {
     "-webkit-animation": "none" ,
     "-moz-animation": "none" ,
     "-moz-animation": "none" ,
+               
+    });
 
-                      
+    $(".arrowshover").css({
+    
+    "opacity": "1" ,
+  
     });
   });
 });
@@ -18,15 +23,15 @@ $("#galicon").click(function () {
   
 //arrows
 
-$("#prev").mouseover(function () { 
+$("#prev").click(function () { 
   var leftPos = $('#scroll').scrollLeft();
-  $("#scroll").animate({scrollLeft: leftPos - 1000}, 800);
+  $("#scroll").animate({scrollLeft: leftPos - 1000}, 1000);
 
 });
 
-$("#next").mouseover(function () { 
+$("#next").click(function () { 
   var leftPos = $('#scroll').scrollLeft();
-  $("#scroll").animate({scrollLeft: leftPos + 1000}, 800);
+  $("#scroll").animate({scrollLeft: leftPos + 1000}, 1000);
 });
 
 
@@ -34,7 +39,7 @@ $("#next").mouseover(function () {
 //-------------------------------------------------thumb
 
 
-var hide = ["#avata","#tadeo"];
+var hide = ["#avata","#tadeo", "#setmy"];
 
 
 (function() {
@@ -92,9 +97,20 @@ $( ".6" ).click(function() {
 
 $( ".7" ).click(function() {
     $("#work").css('background-image', 'url(css/img/port/7.jpg)');
+    pro(setmy);
 });
 
 
 $( ".8" ).click(function() {
     $("#work").css('background-image', 'url(css/img/port/8.jpg)');
+     pro(setmy);
 });
+
+$( ".9" ).click(function() {
+    $("#work").css('background-image', 'url(css/img/port/9.jpg)');
+     pro(setmy);
+});
+
+
+
+

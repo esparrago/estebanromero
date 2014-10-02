@@ -1,10 +1,5 @@
-$(window).stellar({
 
-    horizontalOffset: 0,
-    verticalOffset: 0,
-    responsive: true,
-    horizontalScrolling: false,
-});
+console.log = function() {}
 
 $(function(){
       $("#typedtext").typed({
@@ -17,19 +12,34 @@ $(function(){
       });
   });
   
-$(document).ready(function() {
-  
-  var element =  $( "#chart" ).height();
-  var view = $( ".sections" ).height();
-
-  if (element > view) {
-
-    $( ".sections" ).css( "height", "auto" );
-
-  }
-
-
+$( window ).resize(function() {
+  $( ".sections").css( "height", "100vh" );
 });
+
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
+        console.log ('preload complete')
+    });
+}
+
+// Usage:
+
+preload([
+    'css/img/port/1.jpg',
+    'css/img/port/2.jpg',
+    'css/img/port/3.jpg',
+    'css/img/port/5.jpg',
+    'css/img/port/6.jpg',
+    'css/img/port/7.jpg',
+]);
+
+
+
+
+
 
 
   $(function(  ){
@@ -51,6 +61,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 $("#textabout p").centerizer();
+$(".contactinfo").centerizer();
 });
 
 
@@ -86,6 +97,8 @@ $(function(){
 });
 
 
+
+
 $(document).ready(function() {
   function filterPath(string) {
     return string
@@ -114,20 +127,8 @@ $(document).ready(function() {
 
 
 
-  $(window).on("swipe",function(){setTimeout(
-      function(){
-        var _top = $(window).scrollTop();
-        var individualDivHeight = $( window ).height();
-        var _cur_top = $(window).scrollTop();
-        var totalHeight = $('#container').height();
-        var posToScroll = Math.round(_cur_top / individualDivHeight) * individualDivHeight;
-        $('html, body').stop().animate({scrollTop: posToScroll}, 500);
-        console.log("swipe")
-        }, 800);
-  });
-                 
- 
-$(".fixedarrow" ).click (function(){
+               
+ $(".fixedarrow" ).click (function(){
     var nextdiv = $( window ).height();
     $('html, body').animate({
         scrollTop: ($(window).scrollTop() + nextdiv)}

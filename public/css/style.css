@@ -40,11 +40,13 @@ body::-webkit-scrollbar {
  display: none;
 }
 
+
 body {
 
 	-webkit-transform: transale3d(0,0,0);
 	-moz-transform: transale3d(0,0,0);
 	transform: transale3d(0,0,0);
+	overflow-x: hidden;
 }
 /*-------------------------------------menu-------------------------------------*/
 nav#menu  {
@@ -270,7 +272,7 @@ nav#vertmenu ul li a {
 	margin: 0;
 	color: white;
 	opacity: 0.8;
-	font-size: 4em;
+	font-size: 3.5em;
 	font-family: 'Raleway';
 	font-weight: 800;
 	
@@ -428,8 +430,15 @@ nav#vertmenu ul li a {
 	height: auto;
 	margin: 0;
 	font-weight: 300;
-	font-family: "Raleway";
+	font-family: "Roboto";
 	line-height: 1.25em;
+	
+}
+
+
+#textabout p span {
+
+	font-weight: 500;
 
 }
 
@@ -519,14 +528,13 @@ h4 {
 #work	{
 
 	background-color: #372D3B;
-	overflow: hidden;
 	width: 100%;
 	text-align: center;
 	background-image: url('img/port/intro.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: 50% 0px;
-	position: relative;
+
+	
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -542,27 +550,35 @@ h4 {
 
 }
 
+#workcontainer	{
+
+	position: relative;
+
+}
+
 .containerbottom	{
 
 	position: absolute;
 	bottom: 0;
 	text-align: center;
 	width: 100%;
+	z-index: 999;
 }
 
 .containerbottom img {
 
-	width: 4%;
-	margin-left: 72%;
+	width: 50px;
+	margin-left: 95%;
 	margin-right: 24%;
 	margin-bottom: 1%;
-	opacity: 1;
+	opacity: 0.5;
+	display: inline-block;
 
 }
 
 .containerbottom img:hover {
 
-	opacity: 0.5;
+	opacity: 1;
 
 }
 
@@ -573,6 +589,7 @@ h4 {
 	margin-right: 24%;
 	margin-bottom: 1%;
 	opacity: 1;
+	
 
 }
 
@@ -672,9 +689,40 @@ h4 {
 	width: 10%;
 	height: 100px;
 	display: inline;
-	z-index: 999;
-	
+	opacity: 0;
+}
 
+.arrowshover img {
+	
+	position: absolute;
+	opacity: 0.5;
+	width: 25px;
+	display: inline;
+	z-index: 999;
+	margin: 0;
+	margin-top: 40px;
+}
+
+.arrowshover img {
+	
+	position: absolute;
+	opacity: 0.5;
+	width: 25px;
+	display: inline;
+	z-index: 999;
+	margin: 0;
+	margin-top: 40px;
+}
+
+
+.iz img {
+
+	margin-left: 20%;
+}
+
+.der img {
+
+	margin-left: -40%;
 }
 
 #next	{
@@ -719,10 +767,91 @@ h4 {
 
 #contact {
 
-	background-color: #D35400; 
+	background-color: #372D3B;
+	width: 100%;
+	text-align: center;
+	background-image: url('img/mailbox.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.contactinfo  {
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+text-align:center;
+word-break: break-all;
+}
+
+.contactinfo h1	{
+
+	display: inline-block;
+	font-family: "Raleway";
+	font-weight: 300;
+	color: white;
+}
+
+.contactinfo img {
+
+	width: 100px;
+}
+
+.icons img {
+
+	width: 70px;
+	opacity: 0.5;
+	-webkit-transition:opacity 1s ;
+	-moz-transition:opacity 1s ;
+	-o-transition:opacity 1s ;
+	transition:opacity 1s ;
 }
 
 
+
+.icons img:hover {
+	-webkit-transition:opacity 1s ;
+	-moz-transition:opacity 1s ;
+	-o-transition:opacity 1s ;
+	transition:opacity 1s ;
+	opacity: 1;
+}
+
+
+
+#footcontainer	{
+
+	position: relative;
+}
+
+/*-------------------------------------footer-------------------------------------*/
+
+#footer {
+
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+
+
+}
+
+#footer h1 {
+
+	font-family: "Roboto";
+	color: white;
+	opacity: 1;
+	font-size: 16px;
+	font-weight: 300;
+}
 
 /*-------------------------------------1200px-------------------------------------*/
 @media (max-width: 1200px)	{
@@ -819,7 +948,11 @@ width: 100%;
 }
 
 
+.containerbottom img {
 
+margin-left: 90%;
+
+}
 
 /*-------------------------------------720px-------------------------------------*/
 @media (max-width: 720px)	{
@@ -862,7 +995,13 @@ width: 100%;
 
 	#nombre h1 {
 
-		font-size:4em;
+		font-size:3em;
+
+	}
+
+	#nombre h2 {
+
+		font-size:2em;
 
 	}
 
@@ -907,17 +1046,62 @@ div#chart ul li img 	{
 
 
 
+.worktext {
+bottom: initial;
+top:0;
+text-align: left;
 }
 
+.worktext h1 {
+font-size: 24px;
+width: 80%;
+margin-right:10%;
+margin-left: 10%;
+padding-bottom: 5px;
+padding-top: 40px;
+margin-bottom: 0;
+}
 
+.worktext h1 span {
+font-size: 16px;
+line-height: 2em;
+}
+
+#scroll {
+width: 100%;
+height: auto;
+margin:0;
+}
+.arrowshover	{
+
+	display: none;
+}
+
+#work	{
+
+	background-position: 50% 0%;
+}
 /*-------------------------------------370px-------------------------------------*/
 @media (max-width: 370px)	{
 
 #nombre h1 {
 
-		font-size:3em;
+		font-size: 2.5em;
 
 	}
+
+#nombre h2 {
+
+		font-size:1.5em;
+
+	}
+
+#nombre p {
+
+		font-size: 0.75em;
+
+	}
+
 
 nav#vertmenu ul li {
 	
@@ -950,4 +1134,21 @@ nav#vertmenu ul li {
 	
 }
 
+}
+
+.containerbottom img {
+
+margin-left: 83%;
+
+}
+
+.contactinfo h1 {
+	
+	font-size: 30px;
+}
+
+
+#work	{
+
+	background-position: 50% 0%;
 }
